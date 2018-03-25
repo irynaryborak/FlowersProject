@@ -66,7 +66,6 @@ public class Main implements Bouquet {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		sc.close();
-	
 		int j = 1;
 		for (Flowers vault : list) {
 			if ((vault.getLength() >= a && vault.getLength() <= b) || (vault.getLength() >= b && vault.getLength() <= a)){

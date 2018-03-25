@@ -5,4 +5,5 @@ import java.util.ArrayList;
 		public double getFinalPrice(ArrayList<Flowers> list, double sum);
 		public void displayCollection(ArrayList<Flowers> list);
 		public ArrayList<Flowers> createFirstCollection();
+		public void findFlowerByLength(ArrayList<Flowers> list);
 }
