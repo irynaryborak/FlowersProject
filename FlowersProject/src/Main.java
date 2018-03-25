@@ -25,17 +25,17 @@ public class Main implements Bouquet {
 	// create collection
 	public ArrayList<Flowers> createFirstCollection(){
 		ArrayList<Flowers> list = new ArrayList<Flowers>();
-		Roses rosesOne = new Roses("Pink Rose", 25, 10, 1);
+		Roses rosesOne = new Roses("Pink Rose", 25.5, 10, 1);
 		list.add(rosesOne);
 		Roses rosesTwo = new Roses("White Rose", 30, 15, 2);
 		list.add(rosesTwo);
-		Tulips tulipsOne = new Tulips("Avory Tulip", 7.5, 10, 1);
+		Tulips tulipsOne = new Tulips("Avory Tulip", 15, 14, 1);
 		list.add(tulipsOne);
-		Tulips tulipsTwo = new Tulips("Red Tulip", 8, 12, 2);
+		Tulips tulipsTwo = new Tulips("Red Tulip", 20.5, 12, 2);
 		list.add(tulipsTwo);
 		Orchids orchidOne = new Orchids("Violet Orchid", 150, 25, 3);
 		list.add(orchidOne);
-		Orchids orchidTwo = new Orchids("Yellow Orchid", 250, 30, 3);
+		Orchids orchidTwo = new Orchids("Yellow Orchid", 235, 30, 3);
 		list.add(orchidTwo);
 		return list;
 	}

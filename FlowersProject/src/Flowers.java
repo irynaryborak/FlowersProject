@@ -3,10 +3,10 @@ public class Flowers {
 	
 	private	String name;
 	private double price;
-	private double length;
+	private int length;
 	private int fresh;
 	
-	public Flowers (String name, double price, double length, int fresh){
+	public Flowers (String name, double price, int length, int fresh){
 		this.name = name;
 		this.price = price;
 		this.length = length;
@@ -23,7 +23,7 @@ public class Flowers {
 		return price;
 	}
 
-	public double getLength(){
+	public int getLength(){
 		return length;
 	}
 	
@@ -39,7 +39,7 @@ public class Flowers {
 		this.price = price;
 	}
 
-	public void setLength(double length) {
+	public void setLength(int length) {
 		this.length = length;
 	}
 	public void setFresh(int fresh) {
